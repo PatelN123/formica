@@ -15,7 +15,7 @@ const Landing = () => {
 
 	const handleProceed = () => {
 		if (isLoggedIn) history.push("/dashboard");
-		else window.location.href = "http://localhost:8000/oauth2/login";
+		else window.location.href = "http://testing.itsnp.cf:8000/oauth2/login";
 	};
 
 	return (

@@ -1,4 +1,4 @@
-const BASE_URL = "http://localhost:80";
+const BASE_URL = "http://testing.itsnp.cf:80";
 
 export const LOGIN_URL = `${BASE_URL}/api/oauth2/login`;
 

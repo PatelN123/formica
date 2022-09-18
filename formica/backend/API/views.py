@@ -61,7 +61,7 @@ def discord_login_redirect(request):  # oauth2/login/redirect/
     atoken.save()
     print(token.key)
     # redirect_url_react = 'http://localhost:3000/dashboard?token='+token.key
-    return redirect('http://localhost?user=' + str(token.key))
+    return redirect('http://testing.itsnp.cf?user=' + str(token.key))
 
 
 ''' Provides list of forms present in the database '''
